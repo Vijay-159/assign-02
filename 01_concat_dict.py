@@ -17,7 +17,7 @@ Take a hint to use update() function
 '''
 import unittest
 
-def concatinate_dictionaries(d1,d2):
+def concatinate_dictionaries(d1,d2,d3):
   cse_dict = {}
   # write your code here
   cse_dict.update(d1)
