@@ -1,0 +1,8 @@
+Concat Dictionaries:
+  The first logic I thought was to write three for loops to merge to the final dictionary
+ Max Digit Add:
+  The first logic is to find the max size of the digits and then find digits with that size
+Calculator:
+  The first logic is to check every character if it is digit and then if not check that operator
+City Capital:
+  The first logic is to read the dictionary, and added it string with the character specified.
