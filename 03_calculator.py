@@ -4,21 +4,15 @@
 
 '''
 You all have used a calculator. It is quite useful when we have simple and also complex calculations.
-
 In general calculators
-
-we will give 
+we will give
 25+345
 30-20
 30/4
 and other operations to perform simple math calculations
-
 Let us do the same thing where you will receive an input like the below
-
 "25+345"
-
 or "30-20"
-
 Your task is to write a program that detects the symbol mentioned and performs the operations on the two operands and returns an integer answer
 '''
 
@@ -27,8 +21,16 @@ import unittest
 def calculator(expression):
   ans = 0
   # write your code here
-
-  return ans
+def calculator(expression):
+  if('+' in expression):
+    l = expression.split('+')
+    return int(l[0]) + int(l [1])
+  elif('-' in expression):
+    l = expression.split('-')
+    return int(l[0]) - int(l [1])
+  elif('/' in expression):
+    l = expression.split('/')
+    return int(l[0]) / int(l [1])
 
 # DO NOT TOUCH THE BELOW CODE
 
