@@ -2,19 +2,15 @@
 # Maxdigit Addition
 """
 You are given a list of integer numbers of various digit sizes and your task is to find all the numbers which are having maximum digit size
-
 Example 1:
 nums = [234,2,34,5,332,90,100]
 answer: 666
-
 Explanation:
 here the maximum digit size is 3 --> 234, 332, 100 (all have 3 digit which is max)
 Now return the answer which is the addition of 234 + 332 + 100 == 666
-
 Example 2:
 nums = [1024,2,345,6]
 answer: 1024
-
 Explanation:
 here the maximum digit size is 4 --> 1024 (had 4 digits)
 Now return the answer which is 1024
@@ -37,7 +33,8 @@ def add_maxdigit(nums):
       b.append(a)
   for i in range(len(b)):
         if max(b)==b[i]:
-            ans.append(nums[i])  
+            ans.append(nums[i])
+
   return sum(ans)
 
 
